@@ -1,0 +1,8 @@
+agent: 
+  url: 'http://@Agent_Url@/v1/push'
+redis:
+  endpoint: '@Redis_Endpoint@'
+  url: '@Redis_Url@'
+  port: @Redis_Port@
+  password: '@Redis_Password@'
+  section: ["Memory", "Client", "CPU", "Stats"]

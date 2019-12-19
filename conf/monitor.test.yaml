@@ -1,0 +1,8 @@
+agent: 
+  url: 'http://10.40.46.117:1988/v1/push'
+redis:
+  endpoint: 'test-redis'
+  url: '10.40.46.109'
+  port: 6379
+  password: ''
+  section: ["Memory", "Client", "CPU", "Stats"]
