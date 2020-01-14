@@ -9,7 +9,7 @@ this redis monitor tool only support <b>Open-Falcon</b> Agent，so we must need 
   - gopkg.in/redis.v4
 
 ## Collect Matrics
-Matrics collection setting is in ```conf/monitor.yaml```, we just using "info section" to collect system matrics.
+Matrics collection setting using ```conf/monitor.yaml```, we just using "info section" command to collect system matrics.
 
 ## Deployment
 ### VM
